@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: kal;
+
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    
+    
+
+
+}
+.parent {
+    height: 550px;
+    width: 550px;
+    background-color: #1F2937;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin: 10px;
+}
+
+#text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#password-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #273549;
+    color : #4ADF86;
+    width: 211px;
+    height: 39px;
+    margin-right: 25px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 400;    
+
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:39px;
+    background-color: #4ADF86;
+    border-radius: 3px;
+    padding: 0px 10px;
+}
+.copy:hover {
+    background-color: #4adf865b;
+
+}
+
+button {
+    width: 191px;
+    height: 42px;
+    padding: 9px 17px 15px;
+    border-radius: 6px;
+    background-color: #4ADF86;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+h1{
+    margin-bottom: 0px;
+    margin-top:0px;
+    font-size: 40;
+    font-weight: bolder;
+}
+#l1 {
+    color: white;
+}
+#l2 {
+    color: #4ADF86
+}
+h4{
+    color: grey;
+    margin-bottom: 0px;
+    margin-top:0px;
+}
